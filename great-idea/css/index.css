@@ -74,9 +74,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .fixed-nav {
-	border: 1px solid orange;
-
-	width: 1000px;
+	width: 880px;
 	height: 80px;
 	margin: 0 auto;
 	display: flex;
@@ -91,13 +89,12 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-	width: 1000px;
+	width: 880px;
 	margin: 0 auto;
 }
 
 header {
-	border: 1px solid orange;
-	margin: 60px 0;
+	margin: 40px 0;
 }
 
 header .header-content {
@@ -111,9 +108,6 @@ header .header-content h1 {
 	text-align: center;
 }
 
-header .header-content img {
-}
-
 header .button {	
 	border: 1px solid black;
 	padding: 5px 10px;
@@ -123,7 +117,6 @@ header .button {
 }
 
 .two-col {
-	border: 1px solid orange;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -135,12 +128,11 @@ header .button {
 	margin: 25px 5px;
 }
 
-.middle-img {
+.wide-img {
 	width: 100%;
 }
 
 .three-col {
-	border: 1px solid orange;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -168,4 +160,47 @@ address {
 
 footer {
 	text-align: center;
+}
+
+.services {
+	border: 1px solid black;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.services .service-provided {
+	border: 1px solid black;
+	background: #eee;
+	width: 48%;
+	padding: 20px;
+	height: 200px;
+	margin-top: 30px;
+}
+
+.services .button {
+	border: 1px solid black;
+	border-radius: 3px;
+	background: #fff;
+	font-size: 12px;
+	width: 150px;
+	height: 30px;
+	margin-top: 15px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.services-page header {
+	font-size: 18px;
+	line-height: 130%;
+	margin-bottom: 30px;
+}
+.services-page h1 {
+	font-size: 30px;
+}
+
+.facts {
+	display: flex;
 }
