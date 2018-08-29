@@ -104,6 +104,10 @@ header .header-content h1 {
 	text-align: center;
 }
 
+.button {
+	font-family: 'Titillium Web', sans-serif;
+}
+
 header .button {
 	border: 1px solid black;
 	background: #fff;
@@ -158,7 +162,6 @@ footer {
 }
 
 .services {
-	border: 1px solid black;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -171,12 +174,12 @@ footer {
 	background: #eee;
 	width: 48%;
 	padding: 20px;
-	height: 200px;
+	height: 250px;
 	margin-top: 30px;
 }
 
 .services .button {
-	border-radius: 3px;
+	border-radius: 5px;
 	background: #fff;
 	font-size: 12px;
 	width: 150px;
@@ -187,9 +190,12 @@ footer {
 	justify-content: center;
 }
 
+.services-page {
+	line-height: 1.3em;
+}
+
 .services-page header {
 	font-size: 18px;
-	line-height: 130%;
 	margin-bottom: 30px;
 }
 
@@ -198,16 +204,23 @@ footer {
 }
 
 .facts {
-	margin-top: 30px;
+	margin: 30px 0;
 	display: flex;
 }
 
+.facts {
+	margin-right: 20px;
+}
+
 .facts .facts-content p {
-	line-height: 1.2em;
 	margin-bottom: 20px;
 }
 
 .facts .facts-content ul {
 	margin-left: 20px;
 	line-height: 1.8em;
+}
+
+footer {
+	margin-bottom: 30px;
 }
