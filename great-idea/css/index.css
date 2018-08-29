@@ -64,3 +64,108 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+/* Your code starts here! */
+/* Your code starts here! */
+
+
+* {
+	box-sizing: border-box;
+}
+
+.fixed-nav {
+	border: 1px solid orange;
+
+	width: 1000px;
+	height: 80px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.fixed-nav nav a {
+	color: grey;
+	text-decoration: none;
+	padding: 25px 30px;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+header {
+	border: 1px solid orange;
+	margin: 60px 0;
+}
+
+header .header-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+header .header-content h1 {
+	font-size: 80px;
+	text-align: center;
+}
+
+header .header-content img {
+}
+
+header .button {	
+	border: 1px solid black;
+	padding: 5px 10px;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+.two-col {
+	border: 1px solid orange;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+
+.two-col div {
+	margin: 25px 5px;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.three-col {
+	border: 1px solid orange;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.three-col div {
+	margin: 25px 5px;
+}
+
+.contact {
+	margin: 50px 0;
+}
+
+address {
+	margin: 20px 0;
+}
+
+.phone {
+	margin: 20px 0;
+}
+
+.contact p {
+	margin: 20px 0;
+}
+
+footer {
+	text-align: center;
+}
