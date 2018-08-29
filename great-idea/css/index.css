@@ -3,19 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,51 +11,59 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before, blockquote:after, q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
+
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-/* Your code starts here! */
-/* Your code starts here! */
+
 /* Your code starts here! */
 
+/* Your code starts here! */
+
+/* Your code starts here! */
 
 * {
 	box-sizing: border-box;
@@ -108,9 +104,10 @@ header .header-content h1 {
 	text-align: center;
 }
 
-header .button {	
+header .button {
 	border: 1px solid black;
-	padding: 5px 10px;
+	background: #fff;
+	padding: 10px 0;
 	text-align: center;
 	font-size: 18px;
 	margin-top: 20px;
@@ -121,8 +118,6 @@ header .button {
 	align-items: center;
 	justify-content: space-around;
 }
-
-
 
 .two-col div {
 	margin: 25px 5px;
@@ -168,6 +163,7 @@ footer {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	margin-bottom: 30px;
 }
 
 .services .service-provided {
@@ -180,7 +176,6 @@ footer {
 }
 
 .services .button {
-	border: 1px solid black;
 	border-radius: 3px;
 	background: #fff;
 	font-size: 12px;
@@ -197,10 +192,22 @@ footer {
 	line-height: 130%;
 	margin-bottom: 30px;
 }
+
 .services-page h1 {
 	font-size: 30px;
 }
 
 .facts {
+	margin-top: 30px;
 	display: flex;
+}
+
+.facts .facts-content p {
+	line-height: 1.2em;
+	margin-bottom: 20px;
+}
+
+.facts .facts-content ul {
+	margin-left: 20px;
+	line-height: 1.8em;
 }
