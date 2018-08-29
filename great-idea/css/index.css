@@ -91,6 +91,7 @@ h1, h2, h3, h4, h5 {
 
 header {
 	margin: 40px 0;
+	z-index: 50;
 }
 
 header .header-content {
@@ -223,4 +224,8 @@ footer {
 
 footer {
 	margin-bottom: 30px;
+}
+
+nav a:hover {
+	background: #eee;
 }
